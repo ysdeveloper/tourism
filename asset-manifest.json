@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tourism/static/css/main.39b23941.chunk.css",
+    "main.css": "/tourism/static/css/main.901395d7.chunk.css",
     "main.js": "/tourism/static/js/main.ff375bff.chunk.js",
     "main.js.map": "/tourism/static/js/main.ff375bff.chunk.js.map",
     "runtime-main.js": "/tourism/static/js/runtime-main.897a6829.js",
@@ -12,7 +12,7 @@
     "static/js/3.343bd5f1.chunk.js.map": "/tourism/static/js/3.343bd5f1.chunk.js.map",
     "index.html": "/tourism/index.html",
     "static/css/2.1f77ba98.chunk.css.map": "/tourism/static/css/2.1f77ba98.chunk.css.map",
-    "static/css/main.39b23941.chunk.css.map": "/tourism/static/css/main.39b23941.chunk.css.map",
+    "static/css/main.901395d7.chunk.css.map": "/tourism/static/css/main.901395d7.chunk.css.map",
     "static/js/2.0978ff2b.chunk.js.LICENSE.txt": "/tourism/static/js/2.0978ff2b.chunk.js.LICENSE.txt",
     "static/media/australia_cover.7bba3722.jpg": "/tourism/static/media/australia_cover.7bba3722.jpg",
     "static/media/avtar_02.e426d17c.jpg": "/tourism/static/media/avtar_02.e426d17c.jpg",
@@ -41,7 +41,7 @@
     "static/js/runtime-main.897a6829.js",
     "static/css/2.1f77ba98.chunk.css",
     "static/js/2.0978ff2b.chunk.js",
-    "static/css/main.39b23941.chunk.css",
+    "static/css/main.901395d7.chunk.css",
     "static/js/main.ff375bff.chunk.js"
   ]
 }
