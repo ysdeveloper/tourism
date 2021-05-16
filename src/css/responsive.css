@@ -1,0 +1,273 @@
+@media only screen and (max-width: 1500px) {
+  h2,
+  .h-2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  h4,
+  .h-4 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+  .hero-section .wrapper {
+    top: 0;
+  }
+  .hero-section h1 {
+    font-size: 65px;
+    line-height: 70px;
+  }
+  .hero-section p {
+    width: 85%;
+  }
+
+  /* Footer */
+  footer {
+    padding: 50px 0 80px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  /* Destination Page */
+  .destination-page .hero-section {
+    padding: 100px 0;
+  }
+
+  /* Contact Page */
+  .contact-page .hero-section {
+    padding: 100px 0;
+  }
+
+  /* Pop Up Message */
+  .pop-up-message {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-section h1 {
+    font-size: 65px;
+    line-height: 70px;
+  }
+  .search-wrapper {
+    padding: 50px;
+  }
+
+  /* Destination Detail Page */
+  .price-btn {
+    padding: 12px 35px;
+  }
+
+  /* Contact Page */
+  .contact-box .wrapper {
+    padding: 35px;
+  }
+  .contact-box .wrapper i {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .result-wrapper .title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  /* Footer */
+  footer .footer-bg {
+    bottom: 80%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-section {
+    height: auto;
+  }
+  .hero-section h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .search-wrapper,
+  .result-wrapper .inner-wrap {
+    padding: 30px;
+  }
+
+  /* Tour Section */
+  .tour-section .title,
+  .testimonial-section .title,
+  .post-section .title {
+    margin-bottom: 70px;
+  }
+
+  /* Destination Page */
+  .destination-page .hero-section {
+    padding: 150px 0;
+  }
+
+  /* Contact Page */
+  .contact-box .box-wrapper {
+    margin-bottom: 70px;
+  }
+  .input-wrapper label {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 150px;
+  }
+  footer form {
+    margin-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    padding: 50px 0;
+  }
+
+  /* Header */
+  header .navbar-brand img {
+    width: 80px;
+  }
+
+  .hero-section .wrapper {
+    width: 80%;
+    margin-right: -50px;
+    margin-left: auto;
+  }
+  .hero-section .wrapper:after {
+    top: 15px;
+  }
+  .hero-section {
+    padding: 130px 0 0;
+  }
+  .hero-section h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .hero-section p {
+    width: 100%;
+  }
+
+  /* Result Box */
+  .result-wrapper .inner-wrap {
+    padding: 30px 30px 0;
+  }
+
+  /* Tour Section */
+  .tour-section .title {
+    margin-bottom: 50px;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  /* Testimonial Section */
+  .testimonial-section .title {
+    margin-bottom: 50px;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .testimonial-section .swiper-slide .row {
+    margin: 15px;
+  }
+
+  /* Post Section */
+  .post-section .title {
+    margin-bottom: 50px;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb .breadcrumb-item,
+  .breadcrumb .breadcrumb-item a {
+    font-size: 16px;
+  }
+
+  /* Destination Page */
+  .destination-page .hero-section {
+    padding: 100px 0;
+  }
+
+  /* Destination Detail Page */
+  .destination-detail-page .hero-section .page-title {
+    font-size: 40px;
+  }
+  .tour-details-head .title {
+    margin-right: 100px;
+  }
+  .extra-details-wrapper li > strong {
+    flex: 0 0 40%;
+    width: 40%;
+  }
+  .extra-details-wrapper li > p,
+  .extra-details-wrapper li > ul {
+    flex: 0 0 60%;
+    width: 60%;
+  }
+  .extra-details-wrapper .including-details li {
+    padding-left: 16px;
+  }
+
+  /* Contact Page */
+  .contact-box .wrapper i {
+    font-size: 40px;
+  }
+  .contact-box .title {
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;    
+  }
+  .input-wrapper {
+    margin-bottom: 30px;
+  }
+  .input-wrapper label {
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+  /* Pop Up Message */
+  .pop-up-message {
+    width: 95%;
+  }
+  .pop-up-message p {
+    width: 100%;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 0 0 50px;
+    margin-top: 80px;
+  }
+  footer .footer-bg {
+    bottom: 100%;
+  }
+  footer form {
+    justify-content: center;
+  }
+  footer form input[type="email"] {
+    flex: 0 0 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  footer form input[type="submit"] {
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .search-wrapper {
+    padding: 30px 15px;
+  }
+}

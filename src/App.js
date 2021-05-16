@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import {React, useEffect} from 'react'
+import { Switch, Route, useLocation } from 'react-router-dom'
+import { AnimatePresence } from 'framer-motion'
+import Header from './components/header'
+import Footer from './components/footer'
+import HomePage from './components/home_page'
+import ContactPage from './components/contact_page'
+import DestinationPage from './components/destination_page'
+import DestinationDetailPage from './components/destination_detail_page'
+
+// css
+import './css/style.css'
+import './css/responsive.css'
+import './css/all.min.css'
 
 function App() {
+
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[location])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <Header />
+          <AnimatePresence exitBeforeEnter>
+            <Switch location={location} key={location.pathname}>
+              <Route path="/" exact component={HomePage} />
+              <Route path="/our-contacts" exact component={ContactPage} />
+              <Route path="/destinations" exact component={DestinationPage} />
+              <Route path="/destinations/:destination" exact component={DestinationDetailPage} />
+            </Switch>
+          </AnimatePresence>
+          <Footer />
     </div>
   );
 }
