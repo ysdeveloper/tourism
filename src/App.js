@@ -1,4 +1,4 @@
-import {React, useEffect} from 'react'
+import {React, useEffect, useState} from 'react'
 import { Switch, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import Header from './components/header'

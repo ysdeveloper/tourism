@@ -83,6 +83,40 @@
 }
 
 @media only screen and (max-width: 991px) {
+  /* Header */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: #fff;
+  }
+  header .navbar-collapse {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #00ffd4, #23ff26, #00ffd4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s ease-in-out;
+  }
+  header .navbar-collapse:not(.show) {
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .navbar-nav .nav-link {
+    font-size: 25px;
+    padding: 15px 0;
+  }
+
   .hero-section {
     height: auto;
   }
@@ -223,7 +257,7 @@
   .contact-box .title {
     font-size: 25px;
     padding-bottom: 10px;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
   }
   .input-wrapper {
     margin-bottom: 30px;
