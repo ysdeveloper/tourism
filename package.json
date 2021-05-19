@@ -1,6 +1,6 @@
 {
   "name": "travel",
-  "homepage": "http://ysdeveloper.github.io/tourism",
+  "homepage": "http://ysdeveloper-tourism.netlify.app",
   "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -23,9 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
