@@ -14,7 +14,7 @@ import { tour_data, services_data, testimonial_data, post_data } from "./data";
 import "swiper/swiper-bundle.min.css";
 
 // Image
-import HeroBg from "../img/hero_bg.jpg";
+import HeroBg from "../img/tourism-img-003.jpg";
 swiperCore.use([Autoplay]);
 
 class HomePage extends React.Component {
